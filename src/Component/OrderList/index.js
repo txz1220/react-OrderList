@@ -34,13 +34,7 @@ export default class OrderList extends Component {
       );
     }
     handleSumbit = (id, comment, stars) => {
-      // 这里写的有点复杂 但是实现的比较有意思
-      // const newData =  this.state.data.map(e => {
-      //   return e.id === id  ? {
-      //     ...e, comment, stars, ifCommented: true
-      //   } : e
-      // })
-      // this.setState({data:newData})
+   
       
       let data = this.state.data
       data.map(e => {
